@@ -1,0 +1,39 @@
+<ion-view view-title="login" name="login-view" hide-back-button="true" >
+    <ion-content class="padding" my-customer="">
+        <div>
+
+
+            <div class="card">
+                <div class="item item-image">
+                    <img src="img/dukadi.jpg" style="width:200px">
+                </div>
+            </div>
+
+            <div class="list list-inset" id="resize_div" style="background-color:#8f8f8f">
+
+                <label class="item item-input">
+                    <input type="text" placeholder="Username" ng-model="user.username">
+                </label>
+                <label class="item item-input">
+                    <input type="password" placeholder="Password" ng-model="user.password">
+                </label>
+            </div>
+
+        </div>
+
+        <button class="button button-block button-calm" ng-click="login()">Login</button>
+
+        <!--<button class="button button-block button-calm" ng-click="loginWithWebsocket('ws://192.168.0.196:8090/ReactJPChatter/websocket.ws',-->
+        <!--user.username,websocket$connect$cb,websocket$close$cb)">-->
+            <!--websocket</button>-->
+        <!--<button class="button button-block button-calm" ng-click="showModalInCustomization('message-modal.html','slide-in-left','messageModal',true)">pop message</button>-->
+
+        <!--<button class="button button-block button-calm" ng-click="invokePlugin()">plugin invoke</button>-->
+
+        <!--message modal-->
+
+
+
+
+    </ion-content>
+</ion-view>

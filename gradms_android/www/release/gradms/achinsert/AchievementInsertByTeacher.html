@@ -1,0 +1,22 @@
+<ion-view view-title="photo panel" >
+  <ion-content>
+
+    <!--此处的循环是错误的-->
+
+    <div class="list card" ng-if="colls!=null">
+      <div ng-repeat="pei in colls">
+
+
+        <div class="item item-body">
+          <p>
+            {{pei.collegeName}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="button button-block button-calm"
+            ng-click="achinsert()"
+            style="color:#fff">commit</button>
+
+  </ion-content>
+</ion-view>
